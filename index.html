@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>X Fashion</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <!--    Font Awesome Kit-->
+    <script src="https://kit.fontawesome.com/0820dd95ba.js" crossorigin="anonymous"></script>
+    <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div>
+                <a href=""><h2 class="logo"><i class="fa-solid fa-glasses"></i> x Fashion </h2></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Deals</a></li>
+                    <li><a href="">Sellers</a></li>
+                    <li><a href="">Account</a></li>
+                    <li><a href="">My Cart <i class="fa-solid fa-cart-arrow-down"></i></a></li>
+
+                </ul>
+            </nav>
+            <img
+                    src="images/menu.png"
+                    alt="menu icon"
+                    class="menu-icon"
+                    onclick="menutoggle()"
+            />
+        </div>
+
+        <div class="row">
+            <div class="col-2">
+                <h1>Fashion <span style="color: #8166de">fades!</span><br/>only style remains the same!</h1>
+                <p>
+                    Biography is a very definite region bounded on the north by history<br/>
+                    on the east by obituary, and on the west by tedium.
+                </p>
+                <a href="" class="btn">Have a look Now &#8594; </a>
+            </div>
+            <div class="col-2">
+                <img src="images/image1.png" alt="Couple Fashion"/>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Featured Products -->
+
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product-1.jpg" alt="Sunglass"/>
+            <h4>RayBan Sunglass</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>$29.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-21.jpg" alt="Apple iPhone 11"/>
+            <h4>Apple iPhone 11</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$599.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-3.jpg" alt="HP Backpack Blue"/>
+            <h4>HP Backpack Blue</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$75.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-6.jpg" alt="Premium Rose Water"/>
+            <h4>Premium Rose Water</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+    </div>
+
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product-7.jpg" alt="Orange Water"/>
+            <h4>Orange Water</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$10.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-13.jpg" alt="Premium Sunglass"/>
+            <h4>Premium Sunglass</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$19.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-8.jpg" alt="Mirrorless Camera"/>
+            <h4>Mirrorless Camera</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$755.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-11.jpg" alt="Slipper"/>
+            <h4>Slipper</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$35.00</p>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-10.jpg" alt="Puma Shoes"/>
+                <h4>Puma Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$65.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-9.jpg" alt="Ceramic Jar"/>
+                <h4>Ceramic Jar</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$17.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-12.jpg" alt="Stylist Bag"/>
+                <h4>Stylist Bag</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$15.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-4.jpg" alt="Headset"/>
+                <h4>Headset</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$115.00</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Offer -->
+<h2 class="title">Deals of the day</h2>
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <h1>Gaming Headset<br>Only at <span style="color: #ff523b">$79</span></h1>
+                <small
+                >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse,
+                    sapiente accusamus! Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit ham.</small
+                >
+                <a href="" class="btn">Buy Now &#8594;</a>
+                <p>Immediately available</p>
+            </div>
+            <div class="col-2">
+                <img
+                        src="images/offer.png"
+                        class="offer-img"
+                        alt="orange watch"
+                />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Testimonials -->
+
+<div class="testimonial">
+    <div class="small-container">
+        <h2 class="title">Reviews from our customer</h2>
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. In
+                    nesciunt doloremque maxime quidem necessitatibus sed repellat ea
+                    officia quibusdam! Sunt.
+                </p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <img src="https://images.unsplash.com/photo-1595152452543-e5fc28ebc2b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWVuJTIwcG9ydHJhaXR8ZW58MHx8MHx8&w=1000&q=80" alt="human face"/>
+                <h3>Martin Gaedke</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. In
+                    nesciunt doloremque maxime quidem necessitatibus sed repellat ea
+                    officia quibusdam! Sunt.
+                </p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <img src="https://www.adobe.com/content/dam/cc/us/en/creativecloud/photography/discover/portrait-photography/CODERED_B1_portrait_photography-P4a_438x447.jpg.img.jpg" alt="human face"/>
+                <h3>Margareeta</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. In
+                    nesciunt doloremque maxime quidem necessitatibus sed repellat ea
+                    officia quibusdam! Sunt.
+                </p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <img src="https://cdn.pixabay.com/photo/2021/06/04/10/28/portrait-6309448_960_720.jpg" alt="human face"/>
+                <h3>Mr. Ralf</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Brands -->
+<!--<div class="brands">-->
+<!--    <div class="small-container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-5">-->
+<!--                <img src="images/adidas-9.svg" alt="adidas logo"/>-->
+<!--            </div>-->
+<!--            <div class="col-5">-->
+<!--                <img src="images/tk-maxx-1.svg" alt="tk-maxx logo"/>-->
+<!--            </div>-->
+<!--            <div class="col-5">-->
+<!--                <img src="images/newyorker.svg" alt="newyorker logo"/>-->
+<!--            </div>-->
+<!--            <div class="col-5">-->
+<!--                <img src="images/dm-logo.svg" alt="dm-logo logo"/>-->
+<!--            </div>-->
+<!--            <div class="col-5">-->
+<!--                <img src="images/h-m-1.svg" alt="h-m logo"/>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<!-- Footer -->
+
+<footer class="copyright_text">
+    <!-- Grid container -->
+    <div class="container pt-4">
+        <h2 >Download our apps</h2>
+        <div>
+            <a href="" class="btn"><i class="fa-brands fa-apple"></i> App Store </a>
+            <a href="" class="btn"><i class="fa-brands fa-google-play"></i> Play Store </a>
+        </div>
+        <!-- Section: Social media -->
+        <section class="social_media">
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/avijit12/"
+               <i class="fab fa-facebook-f"></i></a>
+
+            <!-- Twitter -->
+
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/avijit.roy17/"><i class="fab fa-instagram"></i></a>
+
+            <!-- Linkedin -->
+            <a href="https://www.linkedin.com/in/avijitroy12/"
+            ><i class="fab fa-linkedin"></i></a>
+            <!-- Github -->
+            <a  href="https://github.com/AvijitRoy12"
+              ><i class="fab fa-github"></i></a>
+            <!-- Google -->
+            <a href="#!"
+            ><i class="fab fa-google"></i></a>
+        </section>
+        <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div>
+        <a href="#">Copyright CodeKit @2022</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+
+
+<!-- JS for Menu Toggle-->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+            MenuItems.style.maxHeight = "200px";
+        } else {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>
